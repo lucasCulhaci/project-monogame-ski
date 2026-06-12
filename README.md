@@ -1,59 +1,49 @@
-# HoGent – Softwareontwerp 2 - Monogame Ski
+# HoGent – Software Design 2 - Monogame Ski
 
-## Eindevaluatie – Semester 1 (2025)
+## How to start this game?
 
-Dit is de eindevaluatie voor het vak Softwareontwerp 2, gegeven door Tommy Uytterhaegen.
+1. Download the full repository.
+2. Open the project in your IDE, using "monogame_ski_lucas_culhaci.csproj".
+3. Have fun!
 
-Dit project is gemaakt door Lucas Culhaci (202181086), Student Programmeren aan de HOGENT.
+## How to play this game?
 
-## Hoe start u dit spel?
+There are several game modes in this game.
 
-1. Download de volledige repository.
-2. Open het project in je IDE, gebruik "monogame_ski_lucas_culhaci.csproj".
-3. Amuseer je!
+1. **(3 Skiers):** 3 skiers that you control simultaneously on a track without obstacles.
+2. **(Enemies / 1 skier):** 1 skier gliding through the track with obstacles.
+3. **(Enemies / 3 skiers):** 3 skiers gliding through the track with obstacles.
+4. **(Enemies / 2 players):** 2 players, each with their own skier, gliding through the track with obstacles.
 
-## Hoe speelt u dit spel?
+There is also a bonus game mode in this game! You can find how to start this game mode within the code itself!
 
-In dit spel zijn er verschillende gamemodes.
+### Keyboard Inputs
 
-1. (3 Skiiers): 3 skiers die je tegelijk bestuurt in een baan zonder obstakels
-2. (Vijanden /1 skiier) 1 skiër die door de baan glijd met obstakels
-3. (Vijanden /3 skiiers) 3 skiërs die door de baan glijden met obstakels
-4. (Vijanden /2 spelers) 2 spelers met elk hun eigen skiër die door de baan glijd met obstakels
+- **Player 1:** ZQSD
+- **Player 2:** Arrow keys
+- **During gameplay:**
+  - **Pause Game:** P
+  - **Return to Menu:** M
+- **Exit Game:** ESC
 
-Er zit ook een bonus gamemode in dit spel! In de code zelf kun je vinden hoe je deze gamemode kunt starten!
-
-### Toetsenbord inputs
-
-- Speler 1: ZQSD
-- Speler 2: De pijltoetsen
-- Tijdens het spelen
-  - Spel Pauzeren: P
-  - Terug keren naar de menu: M
-- Spel afsluiten: ESC
-
-### Mogelijke Errorberichten
+### Possible Error Messages
 
 > The command "dotnet tool restore" exited with code 1.
 
 ![](./Images/errorMesssage-1.png)
 
-##### Hoe los je dit op?
+##### How to fix this?
 
-1. Sluit het project en open de map monogame-ski-lucas-culhaci en ga naar de .config map. Indien deze niet zichtbaar is, kun je in de zoekbalk achter het huidige pad \.config typen en vervolgens op "enter" drukken.
+1. Close the project and open the folder **monogame-ski-lucas-culhaci** and navigate to the **.config** folder. If this is not visible, you can type `\.config` in the search bar after the current path and then press "enter".
 
 ![](./Images/path-1.png)
 
-1. Klik met de rechtermuisknop op het bestand dotnet-tools.json.
-
-2. Kies eigenschappen (properties).
-
-3. Onderaan 'Algemeen' zie je een melding staan: "Dit bestand is afkomstig van een andere computer...".
-
-4. Vink het vakje deblokkeren (unblock) aan en klik op "OK".
-
-5. Start het project terug op!
+2. Right-click on the file **dotnet-tools.json**.
+3. Choose **Properties**.
+4. At the bottom of the 'General' tab, you will see a message: "This file came from another computer...".
+5. Check the **Unblock** box and click "OK".
+6. Restart the project!
 
 # Contact
 
-Bij eender welke probleem omtrent dit project kunt u een nieuwe issue aanmaken in deze GitHub-repository, of u kunt contact met mij opnemen via mail: lucas.culhaci@student.hogent.be
+For any issues regarding this project, you can create a new issue in this GitHub repository, or you can contact me via email: lucas.culhaci@student.hogent.be
